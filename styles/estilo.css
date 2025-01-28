@@ -1,0 +1,200 @@
+* { box-sizing: border-box; margin: 0; }
+
+/* ================= INDEX ================= */
+
+nav
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+
+    background-color:#007BFF;
+
+    border-bottom: .5vh solid rgb(255, 255, 255);
+
+    position: fixed;
+    width: 100%;
+
+    height: 13vh;
+}
+
+.logo
+{
+    margin-left: 3vw;
+    width: 13vw;
+    height: 13vw;
+
+    margin-top: .5vh;
+}
+
+.login_logo
+{
+    position: absolute;
+
+    right: 0;
+    top: -6.5vh;
+
+    width: 8vw;
+    height: 8vw;
+
+}
+
+.login-area
+{
+    float: right;
+    padding: 1vw;
+
+    margin-top: 2.5vh;
+    margin-right: 6vw;
+}
+
+.login-area a
+{
+    font-size: .7em;
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+/* ================= LOGIN ================= */
+
+.body-login
+{
+    background-image: url(../images/Fundo.jpg);
+    background-size: 100%;
+}
+
+.container-login
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+img
+{
+    margin: 5vh 0 0 43%;
+    width: 15vw;
+    height: 15vw;
+}
+
+form
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    text-align: center;
+
+    padding: 7vh;
+    border-radius: 2vh;
+    
+    background-color: #000000da; 
+}
+
+h1
+{
+    letter-spacing: .5vh;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3vh;
+    padding-bottom: 2vh;
+}
+
+.usuario input
+{
+    border: 0 none;
+    outline: 0;
+
+    height: 5vh;
+    margin-top: 2vh;
+
+    border-left: 1vw solid #007BFF;
+    border-radius: .5vh;
+    padding-left: .5vw;
+}
+
+.senha input
+{
+    border: 0 none;
+    outline: 0;
+
+    height: 5vh;
+
+    border-left: 1vw solid #007BFF;
+    border-radius: .5vh;
+    padding-left: .5vw;
+}
+
+.mensagem
+{
+    font-weight: 300;
+    font-size: 2vh;
+    text-transform: uppercase;
+}
+
+.container-login button
+{
+    font-weight: bold;
+    color: aliceblue;
+    letter-spacing: .5vh;
+
+    width: 100%;
+    height: 5vh;
+    
+    border: 0 none;
+    background-color: #007BFF;
+    border-radius: .5vh;
+}
+
+.container-login button:hover
+{
+    background-color: #007bffbd;
+}
+
+/* ================= INFOS ================= */
+
+.body-info
+{
+    background-image: url(../images/Fundo.jpg);
+    background-size: 100%;
+}
+
+.informacoes-box
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    text-align: center;
+
+    width: 30vw;
+
+    margin-left: 35vw;
+    height: 50vh;
+    
+    border-radius: 2vh;
+    
+    background-color:rgba(0, 0, 0, 0.76) 
+}
+
+.informacoes-box a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    letter-spacing: .5vh;
+
+    padding: 1vh;
+    height: 5vh;
+    
+    border: 0 none;
+    background-color: #007BFF;
+    border-radius: .5vh;
+}
+
+.info
+{
+    padding: 2vh;
+}
+
