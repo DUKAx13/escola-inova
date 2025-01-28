@@ -1,10 +1,3 @@
-<?php 
-    session_start(); 
-
-    include("config.php"); 
-    include("scripts/usuarios.php");
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -14,6 +7,15 @@
     <title>Escola Inova</title>
     <link rel="stylesheet" href="styles/estilo.css">
 </head>
+
+<?php 
+
+    session_start(); 
+
+    include("config.php"); 
+    include("scripts/usuarios.php");
+
+?>
 
 <body>
 
